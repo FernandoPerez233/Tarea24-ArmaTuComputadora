@@ -93,6 +93,14 @@ input[type="checkbox"]{
     font-weight: bold;
     
 }
+
+.total{
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
 footer{
     text-align: center;
     padding: 15px 0;
