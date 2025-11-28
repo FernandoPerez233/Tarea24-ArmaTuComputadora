@@ -110,6 +110,4 @@ function CalcularTotal(){
     }
     
     document.getElementById("total").innerHTML = "El total de tu computadora es: $" + total;
-
-
 }
