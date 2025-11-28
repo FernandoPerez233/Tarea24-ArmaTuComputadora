@@ -66,6 +66,7 @@ input[type="checkbox"]{
     margin-right: 10px;
     transform: scale(1.2);
     display: list-item;
+    cursor: pointer;
 }
 
 .accesorios{
@@ -73,8 +74,25 @@ input[type="checkbox"]{
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
     margin-top: 10px;
+    
 }
 
+
+.btn-calcular{
+    display: flex;
+    
+    text-align: center;
+
+    background:grey ;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
 footer{
     text-align: center;
     padding: 15px 0;
@@ -84,3 +102,4 @@ footer{
     margin-top: 20px;
     box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
 }
+
